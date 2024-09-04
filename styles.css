@@ -29,23 +29,23 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* Centraliza os itens da lista horizontalmente */
+    justify-content: center; 
 }
 
 .navbar p {
-    font-family: 'Geometry', sans-serif; /* Assegure-se de que 'Geometry' esteja correto ou adicione um fallback */
+    font-family: 'Geometry', sans-serif; 
     color: white;
     font-size: 20px;
 }
 .navbar .logo {
-    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
-    font-weight: bold; /* Adiciona negrito, se desejar */
-    color: white; /* Ajuste a cor se necessário */
+    font-size: 24px; 
+    font-weight: bold; 
+    color: white; 
 }
 
 
 .navbar ul li {
-    margin: 0 30px; /* Espaçamento entre itens de navegação */
+    margin: 0 30px; 
     font-family: 'Brasley','sans-serif';
     font-size: 18px;
 }
