@@ -1,0 +1,20 @@
+{
+    "Nome": "Alyson Matheus Gonçalves Martins",
+    "idade": 23,
+    "Estudos": "Estudante de Análise e Desenvolvimento de Sistemas e formando em Tecnico em informatica para Internet",
+    "Habilidades": {
+      "front_end": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP"
+      ],
+      "back_end": [
+        "Java",
+        "MySQL",
+        "C++"
+      ]
+    },
+    "Descrição": "Sou estudante de programação há um bom tempo, estou disposto a encarar desafios e tirar conhecimentos de cada um deles. Sempre estou estudando e querendo aprender, aproveitarei essa oportunidade com muita dedicação."
+  }
+  

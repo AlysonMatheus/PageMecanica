@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Mecânica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <header class="main-header">
+        <nav class="navbar">
+            <p class="logo">YesDev</p>
+            <ul> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Ferramentas</a></li>
+                <li class="dropdown">
+                    <a href="#">Segmentos <span class="arrow">▼</span></a>
+                </li>
+                <li><a href="#">Nossos Parceiros</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <a href="#" class="btn-demo">Solicitar Demonstração!</a>
+        </nav>
+    </header>
+
+    <header class="header">
+        <div class="header-content">
+            <div class="text-content">
+                <h1>Transforme sua <span class="oficina-text"> <br><span></span>Oficina</span> com <br>Tecnologia de Ponta <span>🔧</span></h1>
+                <p>Soluções integradas para otimizar processos e aumentar <br> a produtividade na sua mecânica.<br></p>
+                <div class="features">
+                    <div class="feature-item">
+                        <div class="checkmark"></div>
+                        <span>Controle completo de Agendamentos</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="checkmark"></div>
+                        <span>Módulos completos para sua gestão</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="checkmark"></div>
+                        <span>Não precisa de cartão de crédito</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-content">
+                <form action="#" method="POST">
+                    <p class="form-intro">Experimente <span class="highlight-blue"><a href="#">grátis</a></span> nosso Software!</p>
+                    
+                    <input type="text" name="nome_mecanica" placeholder="Nome da mecânica" required>
+                    <input type="text" name="seu_nome" placeholder="Seu Nome" required>
+                    <input type="tel" name="whatsapp" placeholder="Número do Whatsapp" required>
+                    <select name="foco_oficina" required>
+                        <option value="" disabled selected>Qual o foco da sua oficina?</option>
+                        <option value="mecanica">Mecânica</option>
+                        <option value="eletrica">Elétrica</option>
+                        <option value="pintura">Pintura</option>
+                    </select>
+                    <div class="lgpd-checkbox">
+                        <input type="checkbox" name="selecionar" id="Aceitar" required>
+                        <label for="Aceitar" class="disclaimer">Ao cadastrar-se, você autoriza o tratamento dos seus dados conforme a Lei Geral de Proteção de Dados Pessoais, Lei nº 13.709/2018.</label>
+                    </div>
+                    <button type="submit">Solicitar Contato</button>
+                    <p class="no-commitment">*Totalmente sem compromisso</p>
+                </form>
+            </div>
+        </div>
+    </header>
+    
+    <figure class="image-container">
+        <img src="mecanico1 (1).png" alt="Imagem de mecânica" class="header-image">
+    </figure>
+
+    <script src="script.js"></script>
+</body>
+</html>
